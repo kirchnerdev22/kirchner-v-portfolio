@@ -1,0 +1,113 @@
+/* Sets the text family, background, and text color for my entire page */
+body{
+    background-color: black;
+    color:bisque;
+    font-family: monospace;
+}
+
+/* Makes my main photo of myself the size of the entire width of the page regardless of screen size */
+.main-photo {
+    width: 100%;
+}
+
+
+/* Sizes and styles my title to make it more eye-catching */
+header h1 {
+    font-size: 120px;
+    font-style: italic;
+    text-align: center;
+
+}
+
+/* Shows my links and  makes them easily accesible */
+.top-list {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: black;
+    color: bisque;
+    font-size: 24px;
+    border: solid bisque 3px;
+}
+
+
+/* Correctly displays all my past projects, marking the most important project as the first and largest */
+#work {
+    display: flex;
+    width: fit-content;
+    flex-wrap: wrap;
+    float: right;
+    margin: 25px;
+}
+
+/* Increases project title font size*/
+#work p {
+    font-size: 48px;
+
+}
+
+/* Adds a border around my entire projects/works section so the title are more visible */
+
+#work div p {
+    color: black;
+    background-color: bisque;
+    border: solid bisque 3px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+/* make my flexbox area 100% of the avaiable area */
+#work img {
+    width: 100%;
+}
+
+/* spans my main project image fully across my flexbox */
+
+#work #main {
+    width: 100%;
+}
+
+/* Establishes a size to my minor projects so they do not stack next to my main project */
+
+#work .min {
+    flex-grow: 1;
+    width: 25%;
+    
+}
+
+/* locks my footer to the bottom of the page nd centers all my contact links */
+
+footer {
+ display: flex;
+ width: 100%;
+ flex-direction: column;
+ justify-content: center;
+ justify-content: space-evenly;
+ font-size: 30px;
+ align-items: center;
+ 
+}
+
+/* Gives my links border to distinguish them from the surrounding area. */
+
+footer ul  li{
+    display: inline-flex;
+    flex-wrap: wrap;
+    border: solid bisque 3px;
+    border-color: blanchedalmond;
+    border-radius: 8px;
+}
+
+/* Increases my Contact my header for the footer. */
+
+main h5 {
+    font-size: 48px;
+}
+
+/*  Makes my links smlled than the header for my footer to show they are below it */
+
+
+main p {
+    font-size: 24px;
+}
