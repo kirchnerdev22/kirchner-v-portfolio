@@ -30,6 +30,7 @@ As per the acceptance criteria, this page:
 
 * The layout is responsive and scales according to device size
 
+![Screenshot (18)](https://user-images.githubusercontent.com/114694410/197644000-1b515f29-3cd9-4ee3-a753-0fe3d00a07b5.png)
 
 
 # About Me
@@ -38,5 +39,5 @@ Howdy! My name is Trent and I am really excited with how this turned out! This i
 
 # Link To Deployed Site
 
-
+https://kirchnerdev22.github.io/kirchner-v-portfolio/
 
